@@ -1,4 +1,4 @@
-<img width="100%" alt="neofetch: Yassir Kazzoune, full stack developer. Backend: Spring Boot, Laravel. Web: Vue, Nuxt. Mobile: Flutter, Kotlin. Products: Doralingo, Musta9bali, Bayan. Coding since 2020." src="profile/neofetch.svg">
+<img width="100%" alt="Yassir Kazzoune, full stack developer in Morocco. I build backends, web apps and mobile apps." src="profile/banner.svg">
 
 <a href="https://doralingo.com"><img width="32%" alt="Doralingo: English learning platform" src="profile/app-doralingo.svg"></a>
 <a href="https://musta9bali.com"><img width="32%" alt="Musta9bali: study options after high school" src="profile/app-musta9bali.svg"></a>
