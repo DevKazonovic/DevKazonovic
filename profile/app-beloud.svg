@@ -1,19 +1,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="300" height="120" viewBox="0 0 300 120" role="img" aria-labelledby="title">
   <title id="title">Beloud, built at Safe Apps: a social news and video platform on Android.</title>
   <style>
-    .serif { font-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, 'Times New Roman', serif; }
-    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
-    .name { font-size: 20px; fill: #141413; }
-    .line { font-size: 13px; fill: #3d3d3a; }
-    .meta { font-size: 12px; fill: #87867f; }
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; }
+    .name { font-size: 15px; font-weight: 700; }
+    .line { font-size: 12.5px; }
+    .meta { font-size: 11.5px; }
+    .bg { fill: #1a1918; stroke: #33312d; }
+    .fg { fill: #e8e6dc; }
+    .mut { fill: #9b9a93; }
+    .dim { fill: #6b6a64; }
+    @media (prefers-color-scheme: light) {
+      .bg { fill: #faf9f5; stroke: #e3dfd3; }
+      .fg { fill: #141413; }
+      .mut { fill: #73726c; }
+      .dim { fill: #a3a29a; }
+    }
   </style>
   <defs>
-    <clipPath id="icon"><rect x="22" y="22" width="48" height="48" rx="11"/></clipPath>
+    <clipPath id="icon"><rect x="20" y="20" width="48" height="48" rx="11"/></clipPath>
   </defs>
-  <rect width="300" height="120" rx="12" fill="#f0eee6"/>
-  <image href="data:image/webp;base64,UklGRlQEAABXRUJQVlA4IEgEAADQGACdASpYAFgAPm0ylUckIyIhKPTbEIANiWgAlAD8AO5ytp2X8gP2Z6SXhPw7xARy+1L9D9zPwA9SP5O/0HqUdKXzDfrx+yHvAekT0AP6r/cOsl9A/9dvTD/a74Wv2W/cD2oP//emn5KvH4A9pzdYsZ8R2lxmb+Vf6oLPmBNn6o1AdznIwc4QODc1Wt/9VP36uR2H3aDBY+XYCm4hPe5XUau92/jY+0VZQIA1vBFL5v/rrOU2FYmdbVvgjMNpE+3wrAWVWLbmR8p7Hg1Uk8AA/vDo98Xb+/5tv2JOTCsB+V2PcjaZGPQUwnzFkXz5MWY1KDUQ+8x9lXVSib99hF5sbV8E3FmepSQeenVjKVLovwutOt4/8GYyWPfZ4DzNxK295e2nw5e2cXv5705+rb1NstzOn3tcy/PTgKJsIZtoyMkqnmjA3kWvmBc6+7j/Wdqnh4RGJ9remN9cd9aSqz/GH4N9R9KBUY3vC/dMuekK8NT0AchAztAvfxZxbV0SxPk9ok8r8Cs0iNRHqn05DMz/Gt74KwpCnbA13G8ItX5KPPfMzL4gP8yBrFHYamj0fAohffdxBja2aQF1RpY0zMSIfR34eXoiFhJ3r1fSn58T/JV+e8pLgLoGXNYdZX+LkvpCaKTmDPR0SmB3mZlczm9xfH8m3OnH8ZLQlRBtSoMyQrD69M0CTViN7r8du55RVMyAnmNypzkrpWN0xkSHoP6bfEdVMmzhIcDj3cU3+eNhmKkeV3vPPju08Um9kENWribEj6nEYpBsf9Yt1KsQQaqKyzFEaDCEVLkr/AUPLXTxI6sXJ3FRZpAQ2P/mFOb/pX2WWi3iKJ7a6dN+gU9n00D61wxweYyBT46WDi40UKBuCRCOFwoQPttxXImfybk/qwFtA/7ue3/XXKG8drojnjwL1O0sYorG6MVTcPlZPo2iiqUFdohbMUduBj0QUoZHBShEVCA+pqNL61r59fmWiyHVyuyWSFJ+4uTRzl3qqohftbULl+Nwm+pbCO7mPPO/Q8P8TsbZzrg9H/8n38FVoKc/p6kAS0nvizPLC4KWq7TYYhE9Y5V1mYX/neYxmiO5+MBE/tD6jkpVlSRmcYQRgKtG+84AxLsTCOtotoRCuuxOMRjkVGke1Fzj69YeNL/iOusXdur+9x7IvSKDcbcSX38pu4adp2T+y0LMnc8rtq5scfmRBetNBnlY2uhdM0+4CswTV7jJ32hCBEUgFVCgJCv4sNJWtECDjexSmg77t52Cms9jZBH6s+/ZdJ1W4wPa5sOfI0U8oVtWNcooMNWoDcTHJdSPvs3Af5SJ9UM9fkLK/J8gAPb4fHqZHcASPAWf6UYW7h6WV4BWL4LDp7HvANhzwKgYTaGAURWM95H1JwKocFMxjksRe6QbXHUx1+KLcQ+vECllDqOEl63i008GUktG6DCHjX2nAARWthvXG65BX8LMjrMTgQAA" x="22" y="22" width="48" height="48" clip-path="url(#icon)"/>
-  <text class="serif name" x="84" y="43">Beloud</text>
-  <text class="sans line" x="84" y="63">Social news and video</text>
-  <text class="sans meta" x="22" y="100">Android</text>
-  <text class="sans meta" x="278" y="100" text-anchor="end">Safe Apps</text>
+  <rect class="bg" x="0.5" y="0.5" width="299" height="119" rx="10"/>
+  <image href="data:image/webp;base64,UklGRlQEAABXRUJQVlA4IEgEAADQGACdASpYAFgAPm0ylUckIyIhKPTbEIANiWgAlAD8AO5ytp2X8gP2Z6SXhPw7xARy+1L9D9zPwA9SP5O/0HqUdKXzDfrx+yHvAekT0AP6r/cOsl9A/9dvTD/a74Wv2W/cD2oP//emn5KvH4A9pzdYsZ8R2lxmb+Vf6oLPmBNn6o1AdznIwc4QODc1Wt/9VP36uR2H3aDBY+XYCm4hPe5XUau92/jY+0VZQIA1vBFL5v/rrOU2FYmdbVvgjMNpE+3wrAWVWLbmR8p7Hg1Uk8AA/vDo98Xb+/5tv2JOTCsB+V2PcjaZGPQUwnzFkXz5MWY1KDUQ+8x9lXVSib99hF5sbV8E3FmepSQeenVjKVLovwutOt4/8GYyWPfZ4DzNxK295e2nw5e2cXv5705+rb1NstzOn3tcy/PTgKJsIZtoyMkqnmjA3kWvmBc6+7j/Wdqnh4RGJ9remN9cd9aSqz/GH4N9R9KBUY3vC/dMuekK8NT0AchAztAvfxZxbV0SxPk9ok8r8Cs0iNRHqn05DMz/Gt74KwpCnbA13G8ItX5KPPfMzL4gP8yBrFHYamj0fAohffdxBja2aQF1RpY0zMSIfR34eXoiFhJ3r1fSn58T/JV+e8pLgLoGXNYdZX+LkvpCaKTmDPR0SmB3mZlczm9xfH8m3OnH8ZLQlRBtSoMyQrD69M0CTViN7r8du55RVMyAnmNypzkrpWN0xkSHoP6bfEdVMmzhIcDj3cU3+eNhmKkeV3vPPju08Um9kENWribEj6nEYpBsf9Yt1KsQQaqKyzFEaDCEVLkr/AUPLXTxI6sXJ3FRZpAQ2P/mFOb/pX2WWi3iKJ7a6dN+gU9n00D61wxweYyBT46WDi40UKBuCRCOFwoQPttxXImfybk/qwFtA/7ue3/XXKG8drojnjwL1O0sYorG6MVTcPlZPo2iiqUFdohbMUduBj0QUoZHBShEVCA+pqNL61r59fmWiyHVyuyWSFJ+4uTRzl3qqohftbULl+Nwm+pbCO7mPPO/Q8P8TsbZzrg9H/8n38FVoKc/p6kAS0nvizPLC4KWq7TYYhE9Y5V1mYX/neYxmiO5+MBE/tD6jkpVlSRmcYQRgKtG+84AxLsTCOtotoRCuuxOMRjkVGke1Fzj69YeNL/iOusXdur+9x7IvSKDcbcSX38pu4adp2T+y0LMnc8rtq5scfmRBetNBnlY2uhdM0+4CswTV7jJ32hCBEUgFVCgJCv4sNJWtECDjexSmg77t52Cms9jZBH6s+/ZdJ1W4wPa5sOfI0U8oVtWNcooMNWoDcTHJdSPvs3Af5SJ9UM9fkLK/J8gAPb4fHqZHcASPAWf6UYW7h6WV4BWL4LDp7HvANhzwKgYTaGAURWM95H1JwKocFMxjksRe6QbXHUx1+KLcQ+vECllDqOEl63i008GUktG6DCHjX2nAARWthvXG65BX8LMjrMTgQAA" x="20" y="20" width="48" height="48" clip-path="url(#icon)"/>
+  <text class="name fg" x="82" y="40">Beloud</text>
+  <text class="line mut" x="82" y="60">Social news and video</text>
+  <text class="meta dim" x="20" y="100">android</text>
+  <text class="meta dim" x="280" y="100" text-anchor="end">Safe Apps</text>
 </svg>
