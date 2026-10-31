@@ -6,3 +6,4 @@
 
 <a href="https://egrow.com"><img width="32%" alt="eGrow at Safe Apps: CRM and messaging" src="profile/app-egrow.svg"></a>
 <a href="https://play.google.com/store/apps/details?id=com.beloud"><img width="32%" alt="Beloud at Safe Apps: social news and video" src="profile/app-beloud.svg"></a>
+<a href="https://www.yassirkazzoune.com"><img width="32%" alt="Portfolio: yassirkazzoune.com" src="profile/app-portfolio.svg"></a>
