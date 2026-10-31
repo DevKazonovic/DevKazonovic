@@ -27,9 +27,3 @@
 The code for these is private. My open-source tools are pinned below.
 
 <img alt="Contribution streak" src="profile/streak.svg">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="profile/snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="profile/snake.svg">
-  <img alt="A snake eating my contribution graph" src="profile/snake.svg">
-</picture>

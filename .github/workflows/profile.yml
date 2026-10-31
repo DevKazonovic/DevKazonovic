@@ -25,18 +25,10 @@ jobs:
           options: user=${{ github.repository_owner }}&timezone=Africa/Casablanca&background=0D1117&border=30363D&stroke=30363D&ring=39D353&fire=39D353&currStreakNum=39D353&currStreakLabel=39D353&sideNums=E6EDF3&sideLabels=8B949E&dates=8B949E
           path: profile/streak.svg
 
-      - name: Generate snake
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            profile/snake.svg
-            profile/snake-dark.svg?palette=github-dark
-
       - name: Commit images
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add profile/streak.svg profile/snake.svg profile/snake-dark.svg
+          git add profile/streak.svg
           git commit -m "Update profile images" || exit 0
           git push
