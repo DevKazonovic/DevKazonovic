@@ -91,17 +91,6 @@
     <text class="g b" x="280" y="259">coding</text>
     <text x="392" y="259">since 2020</text>
   </g>
-  <g class="a" style="animation-delay:2.2s">
-    <rect x="280" y="274" width="26" height="18" fill="#484f58"/>
-    <rect x="306" y="274" width="26" height="18" fill="#ff7b72"/>
-    <rect x="332" y="274" width="26" height="18" fill="#3fb950"/>
-    <rect x="358" y="274" width="26" height="18" fill="#d29922"/>
-    <rect x="384" y="274" width="26" height="18" fill="#58a6ff"/>
-    <rect x="410" y="274" width="26" height="18" fill="#bc8cff"/>
-    <rect x="436" y="274" width="26" height="18" fill="#39c5cf"/>
-    <rect x="462" y="274" width="26" height="18" fill="#b1bac4"/>
-  </g>
-
   <text class="a g b" style="animation-delay:2.4s" x="26" y="320" filter="url(#glow)">$</text>
   <rect class="k" x="42" y="306" width="10" height="18" fill="#39d353"/>
 </svg>
