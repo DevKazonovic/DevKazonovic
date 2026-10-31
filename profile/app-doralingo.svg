@@ -1,23 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="300" height="120" viewBox="0 0 300 120" role="img" aria-labelledby="title">
   <title id="title">Doralingo: an English learning platform on the web, Android and iOS.</title>
   <style>
-    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; fill: #e6edf3; }
-    .name { font-size: 17px; font-weight: 600; }
-    .line { font-size: 13px; fill: #8b949e; }
-    .tag { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; font-size: 11px; fill: #39d353; }
-    .pill { fill: none; stroke: #238636; }
+    .serif { font-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, 'Times New Roman', serif; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .name { font-size: 20px; fill: #141413; }
+    .line { font-size: 13px; fill: #3d3d3a; }
+    .meta { font-size: 12px; fill: #87867f; }
   </style>
   <defs>
-    <clipPath id="icon"><rect x="18" y="18" width="52" height="52" rx="12"/></clipPath>
+    <clipPath id="icon"><rect x="22" y="22" width="48" height="48" rx="11"/></clipPath>
   </defs>
-  <rect x="0.5" y="0.5" width="299" height="119" rx="10" fill="#0d1117" stroke="#30363d"/>
-  <image href="data:image/webp;base64,UklGRh4FAABXRUJQVlA4IBIFAACwGQCdASpYAFgAPm0wk0ckIqGhJzQNaIANiWQAyJCAyO++ec/ZH8Hw3CMYV23C8wH2Ae7j6Xv836avUkbzpgLnUIyKbfL9VxJ7TO9G+Axn0zfyQ/Sht8LxevTR1NNNzkYmQVLPaYEFxu14wZfHJVvaFxaF/un/cvhwXyrfS4aV2NX2Q32qdmf9Xg/KT6I8FrTtfE/OQXH7jFRfv+o/cUgkt5LLankRZQLwxNory5Lp8mX+XRK+mg8n3yUsxUtNgES0gxEtSKSFw8qOw1ICZbS4peCGlpsIAP7rjl/hMe2dH//rGP+Yx/zGPO3G0AM1ih0V68iM2MkOGQOkQ18F6Vq7afh+QQjIuxXSo5h94iIEwyEF3xBj9zkewKrcovFjXPAPagVAoNJRCVevyIbnFffMWBaTZHfdsA4XRBJR73m8+XYYK93TuBnbt6yCaqzMqn2GyjRj6a6yM7y1AAc1E4/npO4RLs9u/l1L1nhqM3wK+SNl9zt3+xRIzXQ1GG9pJOt44qgTamlhvwf/E2Tk0drwGIAjx751+M5f8JXg9umwvwauIqhZcPCQS3frVXo9BEM3coHdAPMeS5VR6zHkxDy6onJkJzwhrwFoX0f/4Mcv1hJKxdY/V8Mu6XT3+8IjrhY/TKnmMmiLrAu9o3st//9yraBRjm5vBfTTeWIpd8dmZt4PiYdzmC07m7F1btELmKnycWXXd+O6mzf9o8Vzm6arc31qa25306UQtOstewY2rNKvDIkoBnqzl3r3T1O9hDH986aLsq0g/OjgMHTDQ+IW/Id37pCzv7MKqeJ6uVWtdKljhjl3GC9t5TghvHcgZ1mPnxJhqvLPI+rn8x1aVXlwHR3nCyzBO8wLwcnJa6lL7lBvy1Oi8V/b/Zh7cZPEoHe6WBzj/BtTlv85zM721mXM0cOoC/nbu6Kcc8Q+styrZfPtZ9vOwLAGHPffP53p5I+0bQRNCaW/KNR0z0NYJDVmGSECZwgKzHRgmbc7cnATBm+z9kK05ZCeds4XPbbo0UyxSVm3yqXwUe2vEd/AIVDWsYdKFMrS5ya1ZnBmKtaXZhA9j1BprsA5H60SQVREpm7Q1yz+3TxjLMro8xjggpyiX25Bg3zbQwho1ERz+gZ4ld6eelsVIwL1KnfzZSkbK/4CqD+3uvpCDw5D5pRVNut+UQQgIL9+T8zubK7sMehzXkNKJztC8rxGFLrr4cjdxxTmnji9ApwLQhnlbrXUrkObTyWyJDZ2v+7dm/ByxX2FfZyEYdvgonFLoO8T0M0SpYKKHih1wf53B6WuUJ1F/bnM99NkfxKz5tfip1B7VF+vN/Fs+6UnRVrW/uaU1ucayzvAy0uJgimYqGl2aLNTeQPw1u1G0CYOir4cq2x1xBinCQyJmXHMkY7yJ6tvNUxem9tLG7ZPX7CpMMHYLKnEPjGi+8+hGCsQnu7pfVbX7ma9qMwhZww3mGiMtX+pOfZ6vDm5yve4TyXIL8pzNgdpLt2Tox9TNJyJooiaQqI196Gp8NxLhvGrjeJHauko/lcybD20T/uaYKQghqBB1XONmybT2kdxCtd9TBubIKkHhwFE+AdGodXs2+ipsUzU1s40FykDet/AkPCmjsy3yvSuMt3uK8TyrzVbLrgQAjTnjzTSdDF48PfG2R9rY+/eFNiJbcXxbu5aOanQtPH+qyJwAEEGNV6kEj8i7cpVK/0cf8pS1QjWUQInBXDa9y8C4wVCsl6EAA==" x="18" y="18" width="52" height="52" clip-path="url(#icon)"/>
-  <text class="name" x="84" y="41">Doralingo</text>
-  <text class="line" x="84" y="62">English learning platform</text>
-  <rect class="pill" x="18.5" y="86.5" width="38" height="19" rx="9.5"/>
-  <text class="tag" x="37.5" y="100" text-anchor="middle">web</text>
-  <rect class="pill" x="62.5" y="86.5" width="62" height="19" rx="9.5"/>
-  <text class="tag" x="93.5" y="100" text-anchor="middle">android</text>
-  <rect class="pill" x="130.5" y="86.5" width="38" height="19" rx="9.5"/>
-  <text class="tag" x="149.5" y="100" text-anchor="middle">ios</text>
+  <rect width="300" height="120" rx="12" fill="#f0eee6"/>
+  <image href="data:image/webp;base64,UklGRh4FAABXRUJQVlA4IBIFAACwGQCdASpYAFgAPm0wk0ckIqGhJzQNaIANiWQAyJCAyO++ec/ZH8Hw3CMYV23C8wH2Ae7j6Xv836avUkbzpgLnUIyKbfL9VxJ7TO9G+Axn0zfyQ/Sht8LxevTR1NNNzkYmQVLPaYEFxu14wZfHJVvaFxaF/un/cvhwXyrfS4aV2NX2Q32qdmf9Xg/KT6I8FrTtfE/OQXH7jFRfv+o/cUgkt5LLankRZQLwxNory5Lp8mX+XRK+mg8n3yUsxUtNgES0gxEtSKSFw8qOw1ICZbS4peCGlpsIAP7rjl/hMe2dH//rGP+Yx/zGPO3G0AM1ih0V68iM2MkOGQOkQ18F6Vq7afh+QQjIuxXSo5h94iIEwyEF3xBj9zkewKrcovFjXPAPagVAoNJRCVevyIbnFffMWBaTZHfdsA4XRBJR73m8+XYYK93TuBnbt6yCaqzMqn2GyjRj6a6yM7y1AAc1E4/npO4RLs9u/l1L1nhqM3wK+SNl9zt3+xRIzXQ1GG9pJOt44qgTamlhvwf/E2Tk0drwGIAjx751+M5f8JXg9umwvwauIqhZcPCQS3frVXo9BEM3coHdAPMeS5VR6zHkxDy6onJkJzwhrwFoX0f/4Mcv1hJKxdY/V8Mu6XT3+8IjrhY/TKnmMmiLrAu9o3st//9yraBRjm5vBfTTeWIpd8dmZt4PiYdzmC07m7F1btELmKnycWXXd+O6mzf9o8Vzm6arc31qa25306UQtOstewY2rNKvDIkoBnqzl3r3T1O9hDH986aLsq0g/OjgMHTDQ+IW/Id37pCzv7MKqeJ6uVWtdKljhjl3GC9t5TghvHcgZ1mPnxJhqvLPI+rn8x1aVXlwHR3nCyzBO8wLwcnJa6lL7lBvy1Oi8V/b/Zh7cZPEoHe6WBzj/BtTlv85zM721mXM0cOoC/nbu6Kcc8Q+styrZfPtZ9vOwLAGHPffP53p5I+0bQRNCaW/KNR0z0NYJDVmGSECZwgKzHRgmbc7cnATBm+z9kK05ZCeds4XPbbo0UyxSVm3yqXwUe2vEd/AIVDWsYdKFMrS5ya1ZnBmKtaXZhA9j1BprsA5H60SQVREpm7Q1yz+3TxjLMro8xjggpyiX25Bg3zbQwho1ERz+gZ4ld6eelsVIwL1KnfzZSkbK/4CqD+3uvpCDw5D5pRVNut+UQQgIL9+T8zubK7sMehzXkNKJztC8rxGFLrr4cjdxxTmnji9ApwLQhnlbrXUrkObTyWyJDZ2v+7dm/ByxX2FfZyEYdvgonFLoO8T0M0SpYKKHih1wf53B6WuUJ1F/bnM99NkfxKz5tfip1B7VF+vN/Fs+6UnRVrW/uaU1ucayzvAy0uJgimYqGl2aLNTeQPw1u1G0CYOir4cq2x1xBinCQyJmXHMkY7yJ6tvNUxem9tLG7ZPX7CpMMHYLKnEPjGi+8+hGCsQnu7pfVbX7ma9qMwhZww3mGiMtX+pOfZ6vDm5yve4TyXIL8pzNgdpLt2Tox9TNJyJooiaQqI196Gp8NxLhvGrjeJHauko/lcybD20T/uaYKQghqBB1XONmybT2kdxCtd9TBubIKkHhwFE+AdGodXs2+ipsUzU1s40FykDet/AkPCmjsy3yvSuMt3uK8TyrzVbLrgQAjTnjzTSdDF48PfG2R9rY+/eFNiJbcXxbu5aOanQtPH+qyJwAEEGNV6kEj8i7cpVK/0cf8pS1QjWUQInBXDa9y8C4wVCsl6EAA==" x="22" y="22" width="48" height="48" clip-path="url(#icon)"/>
+  <text class="serif name" x="84" y="43">Doralingo</text>
+  <text class="sans line" x="84" y="63">English learning platform</text>
+  <text class="sans meta" x="22" y="100">Web · Android · iOS</text>
 </svg>
