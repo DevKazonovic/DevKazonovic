@@ -1,24 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="300" height="120" viewBox="0 0 300 120" role="img" aria-labelledby="title">
   <title id="title">Musta9bali: study options for Moroccan students after high school, on the web, Android and iOS.</title>
   <style>
-    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #f5f4f1; }
-    .name { font-family: 'Arial Black', 'Helvetica Neue', Arial, sans-serif; font-weight: 900; font-size: 18px; letter-spacing: -0.3px; }
-    .dot { fill: #ef5748; }
-    .line { font-size: 13px; fill: #8d8d93; }
-    .tag { font-size: 10px; font-weight: 600; letter-spacing: 1.2px; fill: #c9c8c4; }
-    .pill { fill: #16171a; stroke: #2e2f34; }
+    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; fill: #e6edf3; }
+    .name { font-size: 17px; font-weight: 600; }
+    .line { font-size: 13px; fill: #8b949e; }
+    .tag { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; font-size: 11px; fill: #39d353; }
+    .pill { fill: none; stroke: #238636; }
   </style>
   <defs>
     <clipPath id="icon"><rect x="18" y="18" width="52" height="52" rx="12"/></clipPath>
   </defs>
-  <rect x="0.5" y="0.5" width="299" height="119" rx="10" fill="#0f1013" stroke="#26272b"/>
+  <rect x="0.5" y="0.5" width="299" height="119" rx="10" fill="#0d1117" stroke="#30363d"/>
   <image href="data:image/webp;base64,UklGRlQFAABXRUJQVlA4IEgFAACwGACdASpYAFgAPm0ylkckIyIhKdi4+IANiWgAeKM1n4X8H72iXTs95APn1/VfUn2AHcU8wH7RfsB7vXoa/0PqAf0n/d9aJ6AHlteyr+3/7Je0vWTefH1ZKJo2/13C3tY7oRyLhN0mWgB+c/QDzkPU3sF/rN1vFsp8OyriQqvqHzODwsa3Xxqwrye7C0qXrB/Xq9d3gvorGi8IkqTjVrZsLRQUJFKP4OthsO8KZQdczPAAx8w2c9ITo8W5rkJfATsJ6TWAXzFz8iDpD8RhAAD+/cCBs6j/mhu8a/W/h+X8fiMI4p4iQyXgWAFM/vkWKJ4TCdwCf4Qfl5dHNY+uYyd2i6C+y6q/fMmWUSCWx8xfrwlttIwjOcEIvjw4BuM/Kwy9fRYibtf/R67CC5cpCnH+bXMlIoAqZVNdUd0CXuh/CxhQMHnBRUMKd9U6xYeM6omrFZ8/t8GUVFf7g60AY2z6vyu8n981cDrzLIpA/FxV1/AKUpUNmv6sYf8GIqttdGXutUWAxVYVahITDworPAVKaD6qPTgCpXbc9npYOO1DKs/NB7yL+s1b7Q1KAbNucBbUQk5x29d/NW5/M1YoWE5ae3G2QTu5YkUD5xBUgNEbpd+zybMH6fwyvaMq3QM17NbNWZYTKc6hor48bEe9gebUdxIQB9/VI9wjqnhSGCHIWPvmXgIfo81epaT+ni65/8yyAqfzCDL0eZkIlE+PEoI/SoMW/XQ7kcVNvlGNdSoAGpV3fKx3ZvmpI/s8Guszj+ey4AsfnSm6ZzyCT86PP2gjPB+lx2BadB0ZqXqa0Om9elBicj4dtdBDhed/qr2ngfzHJAyi8Ik9BS87BpE51my4jBF2bFWk3vJqb26RWwCUiepWUQPYrBP8HGesTogTZIoGQrvZY7dJ1fidbj3TzuVea44rGLdw1rlLJ596GKE+Z/V2BP8iGa59ZBKDTzk1h1cb23uVgB8Qm9uf36KVSFf/wlf+StC1UthsZjLnz048R/PhFhaEpw1HLNJPOzUZ/m82g2eFvcLisVbYSYQw/SHJMqtnOejHS9uq8XuMoLvT9XNW60VJdWP+CBrEKnpX6F0JXUxSgg0KxnAAiKfhrVk1K94rdYTLQFae4famLQl3QSQin3HjKFip/EbjCN7sfX/ER0AIB9JBmVOi5J04oE/XdnkF1utaY3xZKgLsnO3+PFUvhnsclW/e/69cnilirJfYCHy52HukVqCzP/OYTau/7YRsFHFxIMEDf6+E8iaceJ3PTg1X5Lmp4zWp3/wPDYLB1Yh2WICMWvG9TpaTUNWV48OPYKUjNX1I8AMmqLQvLuZo4WMrLGIAAav0sFZRnFjiBD/pa/OofbEczfK5ErHF3SpAAIitHMV9vPzbJRzOJVDgPlKiaeIYG8VuWr+phezZoXryVUT90rof7VOWLaD1l0xBQ/8XKB/ERGSb2j3AJyvdtanvdoszkvLiHfFxrE+COzWeYbqNw5fR4xs1F6sXVNEfeebH9XOxfc/m/gnCWQ2+TAyeEdJ4A0Foqq+9e+ZhJ2qjrd+iJ7DP7y2aWvoxAj9hPCBw0KcMLf6wIbQMTbTFIB8XkQEbB6CxDRHCatNM161zx4J97I4vXOM8fjXp5mR/3rXZMK9trkP2ux6D6iFySS04OgG2s5H/8gRIHpW7D74pk0C7oPRNaqHPf5tM+ooI2CcyLSvYvI6kloCwTL+BCNltZOHxo2nxen/Bd2yB408+6p/S7r4DR+J0lp/v19HUV8FPfRUph5jYc9CnbkeQGT2oYJFAnlee0b8Pq1P56QWvIAAAAA==" x="18" y="18" width="52" height="52" clip-path="url(#icon)"/>
-  <text class="name" x="84" y="42">Musta9bali<tspan class="dot">.</tspan></text>
+  <text class="name" x="84" y="41">Musta9bali</text>
   <text class="line" x="84" y="62">Study options after high school</text>
-  <rect class="pill" x="18.5" y="88.5" width="40" height="18" rx="3"/>
-  <text class="tag" x="38.5" y="101" text-anchor="middle">WEB</text>
-  <rect class="pill" x="64.5" y="88.5" width="70" height="18" rx="3"/>
-  <text class="tag" x="99.5" y="101" text-anchor="middle">ANDROID</text>
-  <rect class="pill" x="140.5" y="88.5" width="36" height="18" rx="3"/>
-  <text class="tag" x="158.5" y="101" text-anchor="middle">IOS</text>
+  <rect class="pill" x="18.5" y="86.5" width="38" height="19" rx="9.5"/>
+  <text class="tag" x="37.5" y="100" text-anchor="middle">web</text>
+  <rect class="pill" x="62.5" y="86.5" width="62" height="19" rx="9.5"/>
+  <text class="tag" x="93.5" y="100" text-anchor="middle">android</text>
+  <rect class="pill" x="130.5" y="86.5" width="38" height="19" rx="9.5"/>
+  <text class="tag" x="149.5" y="100" text-anchor="middle">ios</text>
 </svg>

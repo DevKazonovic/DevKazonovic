@@ -1,24 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="300" height="120" viewBox="0 0 300 120" role="img" aria-labelledby="title">
   <title id="title">eGrow, built at Safe Apps: a CRM and messaging platform for ecommerce teams, on the web and Android.</title>
   <style>
-    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #f5f4f1; }
-    .name { font-family: 'Arial Black', 'Helvetica Neue', Arial, sans-serif; font-weight: 900; font-size: 18px; letter-spacing: -0.3px; }
-    .dot { fill: #ef5748; }
-    .line { font-size: 13px; fill: #8d8d93; }
-    .tag { font-size: 10px; font-weight: 600; letter-spacing: 1.2px; fill: #c9c8c4; }
-    .owner { font-size: 10px; font-weight: 600; letter-spacing: 1.2px; fill: #8d8d93; }
-    .pill { fill: #16171a; stroke: #2e2f34; }
+    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; fill: #e6edf3; }
+    .name { font-size: 17px; font-weight: 600; }
+    .line { font-size: 13px; fill: #8b949e; }
+    .owner { font-size: 11px; fill: #8b949e; }
+    .tag { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; font-size: 11px; fill: #39d353; }
+    .pill { fill: none; stroke: #238636; }
   </style>
   <defs>
     <clipPath id="icon"><rect x="18" y="18" width="52" height="52" rx="12"/></clipPath>
   </defs>
-  <rect x="0.5" y="0.5" width="299" height="119" rx="10" fill="#0f1013" stroke="#26272b"/>
+  <rect x="0.5" y="0.5" width="299" height="119" rx="10" fill="#0d1117" stroke="#30363d"/>
   <image href="data:image/webp;base64,UklGRsgDAABXRUJQVlA4ILwDAABQFACdASpYAFgAPm0ylkakIyIhK5O6GIANiWQA0fC5yj/DcqH1fGgfKN9+pHbP+NN6w3SAf3jqSPQA6VX9xPRAzUl9U7GzHNqgmieSKBjmJzIh8pUKI3JP41D9uFzWhW7+8a9vVoijsVDDd82iG6sx1u175I9FM3d0RR1Qm9iw3JXTIf0BOfG8lWAylAk+mLjfGR6xUPgLPkv8ELyXUhp2qiQydXKfESk/JAAA/u921/gwboJ+f/9MI/1Kj/UqOwEX0ES4Od1VI8FMQdKEINhRkYFywX3e7b6dQ8+tKZOOMVIdnegaHXhgG3mJqCLUvVa0jvEzD/3/x9dDs7w9Vbw3hfd0VODG14AqUDq5jTfbMuMzS/6WOATw+Wzm57zRrGPc3FW6dKPtKMmetzCa4y0/SOXxiGuvEXdZw8e52yGfFWB9yXSKeMRGdEOvqkvQ1z3z+fLLy1MfQ+gyULv2ekLFH30pHSmcjV5paTHxD+Py5i3atoHB+lzJaQmh73NYZ9dUSAnGJzqR4mSKQTMVhmYryeuhwijx4+M44+eggKPTbzvqmPleg3a0Vl9OYi7ksS0zORN4NahtspI8wTtHYL90Pa0cU9Jvns0Wf6R3uZyVWmHVw4ydgO8ktalj32mi+N/Q5M00LOl8/4a/0GCFLboA5jyw2uZeIhSv1DQWBMd+dOVbzCNUu9/N4vrMqVG2n8yXCb98X+JGvDvUma5ecgGVEb9dw3836wYHYF+ZFypSXy7jX9xqBYG+Kj/ldDEV6TRawuKBlT9AIyz72bqo4wQwwWhoSJ+TRINJpcMXVvod2TIxJZ/C3BaLYVIWb9clt6JjxHjxmgEIjNzMpRjDM2IWquL49GO/V2oyjBhd+77sCPVkc2crwXMeMo5xWepikLNWTfUb32WUU9N3MFmkkWZri3RbeoaMuaYSHEzwyx56Nd7z2T46B16I+yomSHm6imnq0b9v4gowWVR1SiOtjXONT+xyrLobgaly1m7R6EzlEklnbVPoirw3Xb7wehP6JMRMDK3dMiywa+F1Pm+50w9mvS4Cjx89hGsUr+n+AAl/KPVde2cT60T0Kon4PT7MHmzNZgGMVc3vZ2drDwpUjuDKbqJH4HJxGyo1EF+4+irvSeLmWS6jYSaPbUHoWzq4hs5WS+jGb+IWRsd4negOz8JXwW7KI1Vk1METEYxXYdKIQu46lLG7YwMd1KYZBdzYtZvyL5KT9KGLkZl7MGYY3UShGIcXM/HB9j+rcfbiV/SyB6e0XNyon0ikEAAAAA==" x="18" y="18" width="52" height="52" clip-path="url(#icon)"/>
-  <text class="owner" x="282" y="30" text-anchor="end">SAFE APPS</text>
-  <text class="name" x="84" y="42">eGrow<tspan class="dot">.</tspan></text>
+  <text class="owner" x="282" y="30" text-anchor="end">Safe Apps</text>
+  <text class="name" x="84" y="41">eGrow</text>
   <text class="line" x="84" y="62">CRM and messaging</text>
-  <rect class="pill" x="18.5" y="88.5" width="40" height="18" rx="3"/>
-  <text class="tag" x="38.5" y="101" text-anchor="middle">WEB</text>
-  <rect class="pill" x="64.5" y="88.5" width="70" height="18" rx="3"/>
-  <text class="tag" x="99.5" y="101" text-anchor="middle">ANDROID</text>
+  <rect class="pill" x="18.5" y="86.5" width="38" height="19" rx="9.5"/>
+  <text class="tag" x="37.5" y="100" text-anchor="middle">web</text>
+  <rect class="pill" x="62.5" y="86.5" width="62" height="19" rx="9.5"/>
+  <text class="tag" x="93.5" y="100" text-anchor="middle">android</text>
 </svg>
